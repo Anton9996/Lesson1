@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Напишите программу, которая принимает на вход трехзначное число и на выходе показывает последнюю цифру этого числа
+int a;
+do
+{
+    Console.WriteLine("Введите трехзначное число");
+    a = Convert.ToInt32(Console.ReadLine());
+}
+while (a <=99 || a > 999);
+  Console.Write($"Последняя цифра числа {a}={a % 10}");
