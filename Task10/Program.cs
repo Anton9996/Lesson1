@@ -9,8 +9,6 @@ int Digit13(int num)
 {
     int firstDigt = num / 100;
     int secondDigt = num % 10;
-    //if (firstDigt > secondDigt) return firstDigt;   
-    //return secondDigt;
     int number13 = firstDigt*10+secondDigt;
     return number13;
 }
