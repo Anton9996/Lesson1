@@ -5,6 +5,7 @@ Console.WriteLine("Введите число и я покажу, все числ
 int a = Convert.ToInt32(Console.ReadLine());
 
 if (a != 0 && a > 0)
+
 {
     Console.Write($"{a}->");
     for (int i = -a; i<=a; i++)
